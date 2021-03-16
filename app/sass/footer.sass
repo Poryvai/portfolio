@@ -1,0 +1,51 @@
+@import "vars"
+@import "libs"
+@import "fonts" 
+    
+.footer
+    padding: 1rem 0 
+    background-color: $dark
+.footer__inner
+    display: flex 
+    justify-content: space-between
+.footer__credits
+    display: flex
+    align-items: center
+.footer__copyright
+    font-size: 0.94rem
+    color: #BBBBCC
+    padding-right: 0.8rem 
+    margin-right: 1rem 
+    border-right: 1px solid rgba($gray, .35)
+.footer__social
+    display: flex
+    align-items: center
+    a
+        text-decoration: none
+        margin-right: 1.2rem
+        .fab
+            color: #BBBBCC
+            font-size: 22px
+.footer__nav
+    display: flex
+    font-size: 0.94rem
+    align-items: center
+.footer__nav-link
+    color: #bbbbcc
+    text-decoration: none
+    margin-left: 1.2rem
+    &:hover
+        text-decoration: underline
+    &--btn
+        padding: 0.5rem 1.4rem
+        border: 1px solid $gray-light
+        border-radius: 20px
+        transition: background-color .5s ease, color .5s ease
+        text-transform: uppercase
+        line-height: 1.1
+        &:hover
+            text-decoration: none
+            background-color: #bbbbcc
+            border-color: #bbbbcc
+            color: $dark
+
